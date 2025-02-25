@@ -1,0 +1,80 @@
+html {
+    background-color: #F3F7EC;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    font-family: "Josefin Sans", serif;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+    color: #E88D67;
+    font-family: "Josefin Sans", serif;
+}
+
+p {
+    font-size: 2em;
+    font-family: "Josefin Sans", serif;
+}
+
+footer {
+    margin-top: 150px;
+    text-align: center;
+}
+
+
+.footertext {
+    display: inline;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 20px;
+
+}
+
+.centerbtn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    font-size: 2em;
+    background-color: #E88D67;
+    width: 300px;
+    height: 70px;
+    border-radius: 30px;
+}
+
+.btn:hover {
+     color: #F3F7EC;
+     background-color: #005C78;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    place-items: center;
+    margin-top: 100px;
+}
+
+.first {
+    grid-column-start: 3;
+}
+
+.second {
+    grid-column-start: 4;
+}
+
+
+.diceOne {
+    width: 200px;
+    grid-column-start: 3;
+}
+
+.diceTwo {
+    width: 200px;
+    grid-column-start: 4;
+}
+
